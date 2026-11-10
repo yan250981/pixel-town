@@ -1,0 +1,23 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# 导出产物（100MB+ 的 exe / zip 不进版本库）
+/build/
+
+# 调试截图（碰撞、遮挡的临时验证图，不是游戏资源）
+/screenshots/
+
+# 未在项目中引用的重复源图（真正使用的地图是 art/main_map.jpg）
+/map.jpg
+/map.jpg.import
+/0377433ae9c843c78b3bc05ffe34c521.jpeg~tplv-a9rns2rl98-image.png
+/0377433ae9c843c78b3bc05ffe34c521.jpeg~tplv-a9rns2rl98-image.png.import
+
+# 工作区辅助数据（不随源码发布）
+/.workbuddy/
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
